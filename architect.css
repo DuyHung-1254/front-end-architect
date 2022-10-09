@@ -103,26 +103,22 @@ li{
 
 /* Css phần Body */
 
-.house_category
-{
+.house_category{
     display : flex ;
     flex-wrap:wrap ;
     justify-content: space-evenly;
 
 }
 
-.img_house
-{
+.img_house{
     width : 330px ;
     /* height : 230px; */
 }
 
-.house
-{
+.house{
     position: relative;
 }
-.Text_house
-{
+.Text_house{
     position: absolute;
     background-color: black;
     color : white;
@@ -132,15 +128,13 @@ li{
 
 /* Đây là phần body -About */
 
-.about
-{
+.about{
     margin : 50px 0 ;
     padding :0 32px;
 }
 
 
-.des_about
-{
+.des_about{
     margin-top : 16px;
     border-top : 1px solid #f1f1f1 ;
     padding-top :16px; 
@@ -148,35 +142,30 @@ li{
 
 
  /* Đây là phần thành viên -member */
-.Member
-{
+.Member{
     display: flex ;
     justify-content: space-evenly;
 }
 
-.name_member
-{
+.name_member{
     
 }
 
-.img_member
-{
+.img_member{
     width : 330px ;
 
 }
 
 
 /* Set nó cái div này = cái ảnh thì chữ sẽ chỉ đến cái ảnh thì dừng  */
-.Text_member
-{
+.Text_member{
     width : 330px;
 }
 
 
 /* Contact  */
 
-.btn_contact
-{   
+.btn_contact{   
     width : 330px;
     padding:10px;
     margin-top : 20px;
@@ -184,37 +173,31 @@ li{
     border : none ;
 }
 
-.btn_contact:hover 
-{
+.btn_contact:hover {
     cursor: pointer;
     background-color: #976969 ;
 }
 
-p+p
-{
+p+p{
     margin-top : 15px;
 }
-.h3_name
-{
+.h3_name{
     margin: 15px 0 ;
 }
 
 
 /* Form contact  */
 
-.Form_contact 
-{
+.Form_contact {
     margin : 50px 0 ;
     padding :0 32px;
 }
 
-.title_contact
-{
+.title_contact{
     margin-bottom : 32px;
 }
 
-.form_input
-{
+.form_input{
     width : 100%;
     height : 40px;
     margin-top : 20px;
@@ -223,16 +206,14 @@ p+p
     box-sizing: padding-box;
 }
 
-.submit_form 
-{
+.submit_form {
     margin-top : 20px;
     background-color: black ;
     color : white ;
     padding : 15px;
 }
 
-.submit_form:hover
-{
+.submit_form:hover{
     cursor: pointer;
     background-color: #1f197a;
 }
