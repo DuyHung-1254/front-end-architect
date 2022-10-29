@@ -3,15 +3,14 @@
     <head>
         <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="./asset/css/architect.css">
-
+        <link rel="stylesheet" href="architect.css">
         <!-- <link rel="stylesheet" href="./asset/js/index.js"> -->
-        <link rel="stylesheet" href="./asset/font/fontawesome-free-6.2.0-web/css/all.min.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+        <title>Architect</title>
+        <link rel="icon" href="https://noithatxinh.net.vn/wp-content/uploads/anh-nha-dep-xe-sang.jpg">
     </head>
 
     <body id = "id_body">
-
         <div id="wrapper">
             <div id="header">
                 <div class="header-left">
@@ -52,55 +51,55 @@
                     <div class = "Text_house">
                         Summer House
                     </div>
-                    <img class = "img_house " src="./asset/css/img/summer_house.jpg" alt="">
+                    <img class = "img_house " src="./img/summer_house.jpg" alt="">
                 </div>
 
                 <div class="house">
                     <div class = "Text_house">
                         Brick House
                     </div>
-                    <img class = "img_house "  src="./asset/css/img/brick_house.jpg" alt="">
+                    <img class = "img_house "  src="./img/brick_house.jpg" alt="">
                 </div>
 
                 <div class="house">
                     <div class = "Text_house">
-                       renovated
+                        Renovated
                     </div>
-                    <img class = "img_house " src="./asset/css/img/renovated.jpg" alt="">
+                    <img class = "img_house " src="./img/renovated.jpg" alt="">
                 </div>
 
                 <div class="house">
                     <div class = "Text_house">
                         Barn House
                     </div>
-                    <img class = "img_house " src="./asset/css/img/barn_house.jpg" alt="">
+                    <img class = "img_house " src="./img/barn_house.jpg" alt="">
                 </div>
 
                 <div class="house">
                     <div class = "Text_house">
                         Summer House
                     </div>
-                    <img class = "img_house " src="./asset/css/img/summer_house_1.jpg" alt="">
+                    <img class = "img_house " src="./img/summer_house_1.jpg" alt="">
                 </div>
 
                 <div class="house">
                     <div class = "Text_house">
                         Summer House
                     </div>
-                    <img class = "img_house "  src="./asset/css/img/brick_house_1.jpg" alt="">
+                    <img class = "img_house "  src="./img/brick_house_1.jpg" alt="">
                 </div>
                 <div class="house">
                     <div class = "Text_house">
                         Summer House
                     </div>
-                    <img class = "img_house " src="./asset/css/img/renovated_1.jpg" alt="">
+                    <img class = "img_house " src="./img/renovated_1.jpg" alt="">
                 </div>
 
                 <div class="house">
                     <div class = "Text_house">
                         Summer House
                     </div>
-                    <img class = "img_house " src="./asset/css/img/barn_house_1.jpg" alt="">
+                    <img class = "img_house " src="./img/barn_house_1.jpg" alt="">
                 </div>
 
             </div>
@@ -125,7 +124,7 @@
             <div class="Member">
 
                 <div class="name_member">
-                    <img class = "img_member" src="./asset/css/img/John.jpg" alt="">
+                    <img class = "img_member" src="./img/John.jpg" alt="">
                     <div class = "Text_member">
                         <h3 class = "h3_name">John Doe</h3>
                         <p>CEO & Founder</p>
@@ -139,7 +138,7 @@
                 </div>
 
                 <div class="name_member">
-                    <img class = "img_member" src="./asset/css/img/Jane.jpg" alt="">
+                    <img class = "img_member" src="./img/Jane.jpg" alt="">
                     <div class = "Text_member">
                         <h3 class = "h3_name">John Doe</h3>
                         <p>Architect</p>
@@ -153,7 +152,7 @@
                 </div>
 
                 <div class="name_member">
-                    <img class = "img_member" src="./asset/css/img/MIke.jpg" alt="">
+                    <img class = "img_member" src="./img/MIke.jpg" alt="">
                     <div class = "Text_member">
                         <h3 class = "h3_name">John Doe</h3>
                         <p>Architect</p>
@@ -166,7 +165,7 @@
                 </div>
 
                 <div class="name_member">
-                    <img class = "img_member" src="./asset/css/img/Dan.jpg" alt="">
+                    <img class = "img_member" src="./img/Dan.jpg" alt="">
                     <div class = "Text_member">
                         <h3 class = "h3_name">John Doe</h3>
                         <p>Architect</p>
@@ -192,38 +191,26 @@
                 <div class="form_contact-input">
                     <form action="" method = "">
                         <div class="form_name">
-
                             <input class = "form_input" placeholder="Name" type="text" name = "name" id = "id_name">
                         </div>
     
                         <div class="form_email">
-
                             <input class = "form_input" placeholder="Email" type="text" name = "email" id = "id_email">
                         </div>
     
                         <div class="form_subject">
-
                             <input class = "form_input" placeholder = "Subject" type="text" name = "subject" id = "id_subject">
                         </div>
     
                         <div class="form_comment">
-
                             <input class = "form_input" placeholder="Comment" type="text" name = "comment" id = "id_comment">
                         </div>
-                        
                             <button onclick = display_mess()  class = "submit_form" type = "button" name = "submit" id = "id_comment"> Send Message</button>
-                        
-                        </form>
-
-                    </div>
+                    </form>
+                </div>
 
                     <div id="box_result" class = "mess_successful"  >
-                    
-                        <span id = "text_click">
-                            
-                        </span>
-                        
-                        <br>
+                        <span id = "text_click"></span><br>
                         <button onclick = display_none()  id = "exit_box">Oke</button>
                     </div>
                 </div>
@@ -389,12 +376,6 @@
 
  
             </div>
-    
-
-            
-
-            
-
 
             <div class="information_footer">
 
