@@ -225,25 +225,35 @@ p+p
     font-size : 16px;
     padding-left: 10px;
     box-sizing: padding-box;
+    border-radius: 5px;
 }
 
 .mess_successful
 {
-    width :400px ;
-    height : 400px ;
-    background-color: rgb(222, 218, 237); 
-    display:  none  ; 
-    z-index:  20;
+    background-color: rgba(227, 208, 236, 0.4); 
+    width : 100vw;
+    height : 100vh;
     position: fixed;
-    top : 100px;
-    left : 600px;
-    border-radius: 5px; 
-    color : black ;
-    /* padding : 20xp 0 0 20px ; */
-    padding-top : 40px;
-    padding-left : 20px;
+    top : 0 ;
+    left : 0 ;
+    z-index: 300;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+
     
-}   
+} 
+.mess_successful_2
+{
+
+    width : 397px ;
+    height : 481px ;
+    z-index: 200;
+    background-color: white;
+    /* display : none ; */
+    border-radius: 10px;
+} 
 
 #exit_box
 {
@@ -255,9 +265,11 @@ p+p
 .submit_form 
 {
     margin-top : 20px;
-    background-color: black ;
-    color : white ;
+    background-color: rgb(227, 153, 153) ;
+    color : black ;
     padding : 15px;
+    border-radius: 5px ;
+    border : 2px solid rgb(182, 129, 129);
 }
 
 .submit_form:hover
@@ -309,20 +321,71 @@ p+p
 }
 
 
+.modal_body_max_1
+{
+    /* background-color: rgb(0,0,0); */
+    background-color: rgba(227, 208, 236, 0.4); 
+    width : 100vw;
+    height : 100vh;
+    position: fixed;
+    top : 0 ;
+    left : 0 ;
+    z-index: 300;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+
+
 .modal_body
 {
-    background-color: rgb(205, 205, 227);
-    width : 500px;
-    /* position: absolute; */
-    position: fixed;
-    top : 100px;
-    /* top : 0  ;x */
-    left: 600px;
     width : 397px ;
     height : 481px ;
     z-index: 200;
-    display : none ;
+    /* display: none; */
+    background-color: white;
+    border-radius: 5px;
+
 }
+
+.modal_body_dang_nhap_max
+{
+    background-color: rgba(227, 208, 236, 0.4); 
+    width : 100vw;
+    height : 100vh;
+    position: fixed;
+    top : 0 ;
+    left : 0 ;
+    z-index: 300;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal_body_dang_nhap_1
+{
+    width : 397px ;
+    height : 481px ;
+    z-index: 200;
+    /* display: none; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.modal_sign_in_in_sign_up
+{
+    /* padding-left : 16px; */
+    font-size: 20px;
+    /* margin-top : 50px; */
+}
+
+/* .auth_input
+{
+    border-radius: 20px;
+} */
 
 /* .sign_in_now:hover .modal_body
 {
@@ -344,10 +407,11 @@ p+p
 
 #mark_exit
 {
-    padding-top : 25px;
+    padding-top : 12px;
     float : right ;
     padding-right : 20px;
-    
+    /* margin-bottom : 40px; */
+    font-size: 20px;
 }
 
 #mark_exit:hover
@@ -378,9 +442,11 @@ p+p
     font-size : 18px;
     height :40px;
     margin-top : 20px;
-    border-radius: 3px;
+    border-radius: 5px;
     padding-left : 20px;
 }
+
+/*  */
 
 .auth__policy-text
 {
@@ -391,12 +457,15 @@ p+p
 {
     display : flex ;
     justify-content: flex-end   ;
+    /* width : 100px; */
+    /* margin-left : 50px; */
 }
 
 .btn_out_and_sign_up
 {
     margin-right : 20px;
     border : none ;
+    /* border-radius: 5px; */
 }
 
 .modal_signUp
@@ -424,12 +493,14 @@ p+p
 .auth__btn
 {
     margin-top: 20px;
+    margin-right: -36px;
 }
 
 
 .btn_out_and_sign_up
 {
     padding : 10px 30px;
+    border-radius: 5px;
 }
 
 .authen_form_submit
@@ -462,6 +533,8 @@ p+p
     background-color: rgb(235, 205, 220);;
     padding: 12px;
     /* opacity: 0.5; */
+    border-radius: 5px;
+    margin-right : -14px
 }
 
 .social_GG
@@ -469,12 +542,16 @@ p+p
     background-color: #e9f5eb;
     padding: 8px 48px;
     /* width : 80px; */
+    border-radius: 5px;
+
 }
 
 .social_FB
 {
     background-color: #352dab;
-    padding: 8px 40px;
+    padding: 8px 48px;
+    border-radius: 5px;
+
 
 }
 
