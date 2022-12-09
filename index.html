@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
 
         <link rel="stylesheet" href="architect.css">
-        <!-- <link rel="stylesheet" href="./asset/js/index.js"> -->
-        <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
-<!--         <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css"> -->
+
+        <!-- <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">  -->
+        <!-- <link rel="stylesheet" href="./icon/css/all.min.css">  -->
+        <link rel="stylesheet" href="./icon/css/all.css">
         <link rel="stylesheet" href="./responsive.css">
         <title>Architect</title>
         <link rel="icon" href="https://noithatxinh.net.vn/wp-content/uploads/anh-nha-dep-xe-sang.jpg">
@@ -19,184 +20,7 @@
 
 
     <body id = "id_body">
-            <!-- Send Message -->
-
-        <div id="box_result" class = "mess_successful"  >
-            <div class = "mess_successful_2">
-
-                <p id = "text_click">
-                    
-                </p>
-                
-                <br>
-                <button onclick = display_none() id = "exit_box">Oke</button>
-            </div>
-        </div>
-
-        <!-- Đăng ký  -->
-        <div class="modal_body_max_1" id = "id_modal_body_max">
-            <div class="modal_body" id = "id_modalBody">
-
-                    <!-- <a class = "modal_sign_in_in_sign_up"href="">Đăng Nhập</a> -->
-
-                <span >
-                    <i onclick  = come_out() class="fa-solid fa-x " id = "mark_exit"></i>
-
-                </span>
-                <div class="authen_container">
-
-                    <!-- <a class = "modal_signUp "  href="./form.html" target="_blank" rel="noopener noreferrer">Đăng nhập</a> -->
-
-                </div>  
-                <div class = "authen_box">
-
-                    <form action="" class = "authen_form_submit">
     
-                        <div class="authen__form">
-        
-                            
-                                <div class="auth_group">
-                                    <input type="text" class="auth_input" placeholder = "Nhập số điện thoại :">
-                                </div>
-            
-                                <div class="auth_group">
-                                    <input type="text" class="auth_input" placeholder = "Nhập Email :">
-                                </div>
-            
-                                <div class="auth_group">
-                                    <input type="password" class="auth_input" placeholder = "Nhập Password :">
-                                </div>
-    
-                                
-                                <div class="auth__outside">
-                            
-                                    <p class="auth__policy-text">Bằng việc chấp nhận chính sách của
-                                        <a style = "color : red ;text-decoration: none;" href="" class="auth__link-shoppe">BR Architects</a> và điều khoản bảo mật 
-                                    </p>    
-                                </div>
-
-                                <div class="auth__btn">
-                                    <form action="" class="">
-                                        <button  type = "button" onclick =  come_out()  class="btn__come_out btn_out_and_sign_up" id = "id_comeout">Trở lại</button>
-                                    </form>
-                                    <form action="">
-        
-                                        <button type = "button" onclick = "display_signin_in_sign_up()" class="btn__sign_up btn_out_and_sign_up" >Đăng ký</button>
-                                    </form>
-        
-                                </div>
-
-                                <div class="authen_social">
-
-                                    <div class="social_GG">
-
-                                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <span class = "text_social">
-                                            Google
-                                        </span>
-                                    </div>
-
-                                    <div class="social_FB">
-                                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                                            <i class="fa-brands fa-google"></i>
-                                        </a>
-                                        <span class = "text_social">Facebook</span>
-                                    </div>
-                                </div>
-                        </div>
-    
-                    </form>
-                </div>
-
-                
-
-    
-            </div>
-        </div>
-
-
-        Đăng Nhập
-
-        <!-- Đăng nhập -->
-        <div class="modal_body_dang_nhap_max" id = "id_modal_body_max_1">
-            <div class="modal_body_dang_nhap_1" id = "id_modalBody_1">
-
-                <span >
-                    <i onclick  = come_out_sign_in() class="fa-solid fa-x " id = "mark_exit"></i>
-                </span>
-                <div class="authen_container">
-
-                    <!-- <a class = "modal_signUp "  href="./form.html" target="_blank" rel="noopener noreferrer">Đăng nhập</a> -->
-
-                </div>  
-                <div class = "authen_box">
-
-                    <form action="" class = "authen_form_submit">
-    
-                        <div class="authen__form">
-        
-                            
-                                <div class="auth_group">
-                                    <input type="text" class="auth_input" placeholder = "Nhập số điện thoại :">
-                                </div>
-            
-                                <div class="auth_group">
-                                    <input type="text" class="auth_input" placeholder = "Nhập Email :">
-                                </div>
-            
-                                <div class="auth_group">
-                                    <input type="password" class="auth_input" placeholder = "Nhập Password :">
-                                </div>
-    
-                                
-                                <div class="auth__outside">
-                            
-                                    <p class="auth__policy-text">Bằng việc chấp nhận chính sách của
-                                        <a style = "color : red ;text-decoration: none;" href="" class="auth__link-shoppe">BR Architects</a> và điều khoản bảo mật 
-                                    </p>    
-                                </div>
-
-                                <div class="auth__btn">
-                                    <form action="" class="">
-                                        <button  type ="button" onclick = comeback_sign_up()  class="btn__come_out btn_out_and_sign_up" id = "id_comeout">Trở lại</button>
-                                    </form>
-                                    <form action="">
-        
-                                        <button class="btn__sign_up btn_out_and_sign_up" >Đăng Nhập</button>
-                                    </form>
-        
-                                </div>
-
-                                <div class="authen_social">
-
-                                    <div class="social_GG">
-
-                                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                                            <i class="fa-brands fa-facebook"></i>
-                                        </a>
-                                        <span class = "text_social">
-                                            Google
-                                        </span>
-                                    </div>
-
-                                    <div class="social_FB">
-                                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                                            <i class="fa-brands fa-google"></i>
-                                        </a>
-                                        <span class = "text_social">Facebook</span>
-                                    </div>
-                                </div>
-                        </div>
-    
-                    </form>
-                </div>
-
-                
-
-    
-            </div>
         </div>
         <div id="wrapper">
             <div id="header">
@@ -552,6 +376,185 @@
             }
 
         </script>
+
+                <!-- Send Message -->
+
+                <div id="box_result" class = "mess_successful"  >
+                    <div class = "mess_successful_2">
+        
+                        <p id = "text_click">
+                            
+                        </p>
+                        
+                        <br>
+                        <button onclick = display_none() id = "exit_box">Oke</button>
+                    </div>
+                </div>
+        
+                <!-- Đăng ký  -->
+                <div class="modal_body_max_1" id = "id_modal_body_max">
+                    <div class="modal_body" id = "id_modalBody">
+        
+                            <!-- <a class = "modal_sign_in_in_sign_up"href="">Đăng Nhập</a> -->
+        
+                        <span >
+                            <i onclick  = come_out() class="fa-solid fa-x " id = "mark_exit"></i>
+        
+                        </span>
+                        <div class="authen_container">
+        
+                            <!-- <a class = "modal_signUp "  href="./form.html" target="_blank" rel="noopener noreferrer">Đăng nhập</a> -->
+        
+                        </div>  
+                        <div class = "authen_box">
+        
+                            <form action="" class = "authen_form_submit">
+            
+                                <div class="authen__form">
+                
+                                    
+                                        <div class="auth_group">
+                                            <input type="text" class="auth_input" placeholder = "Nhập số điện thoại :">
+                                        </div>
+                    
+                                        <div class="auth_group">
+                                            <input type="text" class="auth_input" placeholder = "Nhập Email :">
+                                        </div>
+                    
+                                        <div class="auth_group">
+                                            <input type="password" class="auth_input" placeholder = "Nhập Password :">
+                                        </div>
+            
+                                        
+                                        <div class="auth__outside">
+                                    
+                                            <p class="auth__policy-text">Bằng việc chấp nhận chính sách của
+                                                <a style = "color : red ;text-decoration: none;" href="" class="auth__link-shoppe">BR Architects</a> và điều khoản bảo mật 
+                                            </p>    
+                                        </div>
+        
+                                        <div class="auth__btn">
+                                            <form action="" class="">
+                                                <button  type = "button" onclick =  come_out()  class="btn__come_out btn_out_and_sign_up" id = "id_comeout">Trở lại</button>
+                                            </form>
+                                            <form action="">
+                
+                                                <button type = "button" onclick = "display_signin_in_sign_up()" class="btn__sign_up btn_out_and_sign_up" >Đăng ký</button>
+                                            </form>
+                
+                                        </div>
+        
+                                        <div class="authen_social">
+        
+                                            <div class="social_GG">
+        
+                                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                                </a>
+                                                <span class = "text_social">
+                                                    Google
+                                                </span>
+                                            </div>
+        
+                                            <div class="social_FB">
+                                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-google"></i>
+                                                </a>
+                                                <span class = "text_social">Facebook</span>
+                                            </div>
+                                        </div>
+                                </div>
+            
+                            </form>
+                        </div>
+        
+                        
+        
+            
+                    </div>
+                </div>
+        
+        
+                <!-- Đăng Nhập -->
+        
+                <!-- Đăng nhập -->
+                <div class="modal_body_dang_nhap_max" id = "id_modal_body_max_1">
+                    <div class="modal_body_dang_nhap_1" id = "id_modalBody_1">
+        
+                        <span >
+                            <i onclick  = come_out_sign_in() class="fa-solid fa-x " id = "mark_exit"></i>
+                        </span>
+                        <div class="authen_container">
+        
+                            <!-- <a class = "modal_signUp "  href="./form.html" target="_blank" rel="noopener noreferrer">Đăng nhập</a> -->
+        
+                        </div>  
+                        <div class = "authen_box">
+        
+                            <form action="" class = "authen_form_submit">
+            
+                                <div class="authen__form">
+                
+                                    
+                                        <div class="auth_group">
+                                            <input type="text" class="auth_input" placeholder = "Nhập số điện thoại :">
+                                        </div>
+                    
+                                        <div class="auth_group">
+                                            <input type="text" class="auth_input" placeholder = "Nhập Email :">
+                                        </div>
+                    
+                                        <div class="auth_group">
+                                            <input type="password" class="auth_input" placeholder = "Nhập Password :">
+                                        </div>
+            
+                                        
+                                        <div class="auth__outside">
+                                    
+                                            <p class="auth__policy-text">Bằng việc chấp nhận chính sách của
+                                                <a style = "color : red ;text-decoration: none;" href="" class="auth__link-shoppe">BR Architects</a> và điều khoản bảo mật 
+                                            </p>    
+                                        </div>
+        
+                                        <div class="auth__btn">
+                                            <form action="" class="">
+                                                <button  type ="button" onclick = comeback_sign_up()  class="btn__come_out btn_out_and_sign_up" id = "id_comeout">Trở lại</button>
+                                            </form>
+                                            <form action="">
+                
+                                                <button class="btn__sign_up btn_out_and_sign_up" >Đăng Nhập</button>
+                                            </form>
+                
+                                        </div>
+        
+                                        <div class="authen_social">
+        
+                                            <div class="social_GG">
+        
+                                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                                </a>
+                                                <span class = "text_social">
+                                                    Google
+                                                </span>
+                                            </div>
+        
+                                            <div class="social_FB">
+                                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-brands fa-google"></i>
+                                                </a>
+                                                <span class = "text_social">Facebook</span>
+                                            </div>
+                                        </div>
+                                </div>
+            
+                            </form>
+                        </div>
+        
+                        
+        
+            
+                    </div>
     </body>
 </html>
 
