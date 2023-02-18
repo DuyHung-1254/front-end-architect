@@ -1,2 +1,2 @@
 # front-end-architect
-Website sử dụng html, css, js hiển thị những nội dung cơ bản của website
+Website hiển thị thông tin của kiến trúc sư, các loại nhà và gửi comment
