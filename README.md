@@ -1,2 +1,2 @@
 # front-end-architect
-Hiện thị những nội dung cơ bản
+Website sử dụng html, css, js hiển thị những nội dung cơ bản của website
